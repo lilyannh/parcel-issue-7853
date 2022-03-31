@@ -1,0 +1,17 @@
+{
+  "name": "hmr-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "root-app1-start": "parcel serve ./app1/src/index.html --open",
+    "root-app2-start": "parcel serve ./app2/src/index.html --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
